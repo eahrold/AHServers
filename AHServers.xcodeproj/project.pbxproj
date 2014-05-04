@@ -9,12 +9,53 @@
 /* Begin PBXBuildFile section */
 		BE0209ED1900AF040080311E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0209EC1900AF040080311E /* Cocoa.framework */; };
 		BE0209F71900AF040080311E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE0209F51900AF040080311E /* InfoPlist.strings */; };
-		BE0209FB1900AF040080311E /* AHServers.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0209FA1900AF040080311E /* AHServers.m */; };
 		BE020A021900AF040080311E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE020A011900AF040080311E /* XCTest.framework */; };
 		BE020A031900AF040080311E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0209EC1900AF040080311E /* Cocoa.framework */; };
 		BE020A061900AF040080311E /* AHServers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0209E91900AF040080311E /* AHServers.framework */; };
 		BE020A0C1900AF040080311E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE020A0A1900AF040080311E /* InfoPlist.strings */; };
 		BE020A0E1900AF040080311E /* AHServersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE020A0D1900AF040080311E /* AHServersTests.m */; };
+		BE020A1C1900AF270080311E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0209EC1900AF040080311E /* Cocoa.framework */; };
+		BE020A281900AF270080311E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE020A011900AF040080311E /* XCTest.framework */; };
+		BE020A291900AF270080311E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0209EC1900AF040080311E /* Cocoa.framework */; };
+		BE020A2C1900AF270080311E /* libAHServersOSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE020A1B1900AF270080311E /* libAHServersOSX.a */; };
+		BE020A321900AF270080311E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE020A301900AF270080311E /* InfoPlist.strings */; };
+		BE020A341900AF270080311E /* AHServersOSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE020A331900AF270080311E /* AHServersOSXTests.m */; };
+		BE020A4D1900AF620080311E /* AHHttpError.h in Headers */ = {isa = PBXBuildFile; fileRef = BE020A3B1900AF620080311E /* AHHttpError.h */; };
+		BE020A4E1900AF620080311E /* AHHttpError.m in Sources */ = {isa = PBXBuildFile; fileRef = BE020A3C1900AF620080311E /* AHHttpError.m */; };
+		BE020A4F1900AF620080311E /* AHHttpManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BE020A3D1900AF620080311E /* AHHttpManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE020A501900AF620080311E /* AHHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE020A3E1900AF620080311E /* AHHttpManager.m */; };
+		BE020A511900AF620080311E /* AHHttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = BE020A3F1900AF620080311E /* AHHttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE020A521900AF620080311E /* AHHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BE020A401900AF620080311E /* AHHttpRequest.m */; };
+		BE020A531900AF620080311E /* AHHttpServerTrust.h in Headers */ = {isa = PBXBuildFile; fileRef = BE020A411900AF620080311E /* AHHttpServerTrust.h */; };
+		BE020A541900AF620080311E /* AHHttpServerTrust.m in Sources */ = {isa = PBXBuildFile; fileRef = BE020A421900AF620080311E /* AHHttpServerTrust.m */; };
+		BE020A551900AF620080311E /* NSDictionary+NSData.h in Headers */ = {isa = PBXBuildFile; fileRef = BE020A431900AF620080311E /* NSDictionary+NSData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE020A561900AF620080311E /* NSDictionary+NSData.m in Sources */ = {isa = PBXBuildFile; fileRef = BE020A441900AF620080311E /* NSDictionary+NSData.m */; };
+		BE020A571900AF620080311E /* NSString+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = BE020A451900AF620080311E /* NSString+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE020A581900AF620080311E /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = BE020A461900AF620080311E /* NSString+Base64.m */; };
+		BE020A591900AF620080311E /* NSString+NSData.h in Headers */ = {isa = PBXBuildFile; fileRef = BE020A471900AF620080311E /* NSString+NSData.h */; };
+		BE020A5A1900AF620080311E /* NSString+NSData.m in Sources */ = {isa = PBXBuildFile; fileRef = BE020A481900AF620080311E /* NSString+NSData.m */; };
+		BE020A5F1900AF8C0080311E /* AHServers.h in Headers */ = {isa = PBXBuildFile; fileRef = BE0209F91900AF040080311E /* AHServers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE020A621900AFB80080311E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE020A601900AFB80080311E /* Security.framework */; };
+		BE020A631900AFB80080311E /* SecurityInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE020A611900AFB80080311E /* SecurityInterface.framework */; };
+		BE020A641900AFDB0080311E /* AHHttpError.m in Sources */ = {isa = PBXBuildFile; fileRef = BE020A3C1900AF620080311E /* AHHttpError.m */; };
+		BE020A651900AFDB0080311E /* AHHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE020A3E1900AF620080311E /* AHHttpManager.m */; };
+		BE020A661900AFDB0080311E /* AHHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BE020A401900AF620080311E /* AHHttpRequest.m */; };
+		BE020A671900AFDB0080311E /* AHHttpServerTrust.m in Sources */ = {isa = PBXBuildFile; fileRef = BE020A421900AF620080311E /* AHHttpServerTrust.m */; };
+		BE020A681900AFDB0080311E /* NSDictionary+NSData.m in Sources */ = {isa = PBXBuildFile; fileRef = BE020A441900AF620080311E /* NSDictionary+NSData.m */; };
+		BE020A691900AFDB0080311E /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = BE020A461900AF620080311E /* NSString+Base64.m */; };
+		BE020A6A1900AFDB0080311E /* NSString+NSData.m in Sources */ = {isa = PBXBuildFile; fileRef = BE020A481900AF620080311E /* NSString+NSData.m */; };
+		BE020A6E1900AFF00080311E /* AHHttpError.h in Headers */ = {isa = PBXBuildFile; fileRef = BE020A3B1900AF620080311E /* AHHttpError.h */; };
+		BE020A6F1900AFF00080311E /* AHHttpManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BE020A3D1900AF620080311E /* AHHttpManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE020A701900AFF00080311E /* AHHttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = BE020A3F1900AF620080311E /* AHHttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE020A711900AFF00080311E /* AHHttpServerTrust.h in Headers */ = {isa = PBXBuildFile; fileRef = BE020A411900AF620080311E /* AHHttpServerTrust.h */; };
+		BE020A721900AFF00080311E /* NSDictionary+NSData.h in Headers */ = {isa = PBXBuildFile; fileRef = BE020A431900AF620080311E /* NSDictionary+NSData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE020A731900AFF00080311E /* NSString+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = BE020A451900AF620080311E /* NSString+Base64.h */; };
+		BE020A741900AFF00080311E /* NSString+NSData.h in Headers */ = {isa = PBXBuildFile; fileRef = BE020A471900AF620080311E /* NSString+NSData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE020A771900AFF00080311E /* AHServers.h in Headers */ = {isa = PBXBuildFile; fileRef = BE0209F91900AF040080311E /* AHServers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE020A7A1900B01C0080311E /* NSString+StringSanitizer.h in Headers */ = {isa = PBXBuildFile; fileRef = BE020A781900B01C0080311E /* NSString+StringSanitizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE020A7B1900B01C0080311E /* NSString+StringSanitizer.h in Headers */ = {isa = PBXBuildFile; fileRef = BE020A781900B01C0080311E /* NSString+StringSanitizer.h */; };
+		BE020A7C1900B01C0080311E /* NSString+StringSanitizer.m in Sources */ = {isa = PBXBuildFile; fileRef = BE020A791900B01C0080311E /* NSString+StringSanitizer.m */; };
+		BE020A7D1900B01C0080311E /* NSString+StringSanitizer.m in Sources */ = {isa = PBXBuildFile; fileRef = BE020A791900B01C0080311E /* NSString+StringSanitizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +65,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = BE0209E81900AF040080311E;
 			remoteInfo = AHServers;
+		};
+		BE020A2A1900AF270080311E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE0209E01900AF030080311E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE020A1A1900AF270080311E;
+			remoteInfo = AHServersOSX;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -37,12 +85,34 @@
 		BE0209F61900AF040080311E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE0209F81900AF040080311E /* AHServers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AHServers-Prefix.pch"; sourceTree = "<group>"; };
 		BE0209F91900AF040080311E /* AHServers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHServers.h; sourceTree = "<group>"; };
-		BE0209FA1900AF040080311E /* AHServers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHServers.m; sourceTree = "<group>"; };
 		BE020A001900AF040080311E /* AHServersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHServersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE020A011900AF040080311E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BE020A091900AF040080311E /* AHServersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AHServersTests-Info.plist"; sourceTree = "<group>"; };
 		BE020A0B1900AF040080311E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE020A0D1900AF040080311E /* AHServersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHServersTests.m; sourceTree = "<group>"; };
+		BE020A1B1900AF270080311E /* libAHServersOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAHServersOSX.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE020A271900AF270080311E /* AHServersOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHServersOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE020A2F1900AF270080311E /* AHServersOSXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AHServersOSXTests-Info.plist"; sourceTree = "<group>"; };
+		BE020A311900AF270080311E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE020A331900AF270080311E /* AHServersOSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHServersOSXTests.m; sourceTree = "<group>"; };
+		BE020A3B1900AF620080311E /* AHHttpError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHHttpError.h; sourceTree = "<group>"; };
+		BE020A3C1900AF620080311E /* AHHttpError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHHttpError.m; sourceTree = "<group>"; };
+		BE020A3D1900AF620080311E /* AHHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHHttpManager.h; sourceTree = "<group>"; };
+		BE020A3E1900AF620080311E /* AHHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHHttpManager.m; sourceTree = "<group>"; };
+		BE020A3F1900AF620080311E /* AHHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHHttpRequest.h; sourceTree = "<group>"; };
+		BE020A401900AF620080311E /* AHHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHHttpRequest.m; sourceTree = "<group>"; };
+		BE020A411900AF620080311E /* AHHttpServerTrust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHHttpServerTrust.h; sourceTree = "<group>"; };
+		BE020A421900AF620080311E /* AHHttpServerTrust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHHttpServerTrust.m; sourceTree = "<group>"; };
+		BE020A431900AF620080311E /* NSDictionary+NSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NSData.h"; sourceTree = "<group>"; };
+		BE020A441900AF620080311E /* NSDictionary+NSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NSData.m"; sourceTree = "<group>"; };
+		BE020A451900AF620080311E /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		BE020A461900AF620080311E /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		BE020A471900AF620080311E /* NSString+NSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSData.h"; sourceTree = "<group>"; };
+		BE020A481900AF620080311E /* NSString+NSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSData.m"; sourceTree = "<group>"; };
+		BE020A601900AFB80080311E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BE020A611900AFB80080311E /* SecurityInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityInterface.framework; path = System/Library/Frameworks/SecurityInterface.framework; sourceTree = SDKROOT; };
+		BE020A781900B01C0080311E /* NSString+StringSanitizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringSanitizer.h"; sourceTree = "<group>"; };
+		BE020A791900B01C0080311E /* NSString+StringSanitizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringSanitizer.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +121,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE0209ED1900AF040080311E /* Cocoa.framework in Frameworks */,
+				BE020A621900AFB80080311E /* Security.framework in Frameworks */,
+				BE020A631900AFB80080311E /* SecurityInterface.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +136,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE020A181900AF270080311E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE020A1C1900AF270080311E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE020A241900AF270080311E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE020A291900AF270080311E /* Cocoa.framework in Frameworks */,
+				BE020A281900AF270080311E /* XCTest.framework in Frameworks */,
+				BE020A2C1900AF270080311E /* libAHServersOSX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -72,6 +162,7 @@
 			children = (
 				BE0209F21900AF040080311E /* AHServers */,
 				BE020A071900AF040080311E /* AHServersTests */,
+				BE020A2D1900AF270080311E /* AHServersOSXTests */,
 				BE0209EB1900AF040080311E /* Frameworks */,
 				BE0209EA1900AF040080311E /* Products */,
 			);
@@ -82,6 +173,8 @@
 			children = (
 				BE0209E91900AF040080311E /* AHServers.framework */,
 				BE020A001900AF040080311E /* AHServersTests.xctest */,
+				BE020A1B1900AF270080311E /* libAHServersOSX.a */,
+				BE020A271900AF270080311E /* AHServersOSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +182,8 @@
 		BE0209EB1900AF040080311E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE020A601900AFB80080311E /* Security.framework */,
+				BE020A611900AFB80080311E /* SecurityInterface.framework */,
 				BE0209EC1900AF040080311E /* Cocoa.framework */,
 				BE020A011900AF040080311E /* XCTest.framework */,
 				BE0209EE1900AF040080311E /* Other Frameworks */,
@@ -110,7 +205,22 @@
 			isa = PBXGroup;
 			children = (
 				BE0209F91900AF040080311E /* AHServers.h */,
-				BE0209FA1900AF040080311E /* AHServers.m */,
+				BE020A3D1900AF620080311E /* AHHttpManager.h */,
+				BE020A3E1900AF620080311E /* AHHttpManager.m */,
+				BE020A3F1900AF620080311E /* AHHttpRequest.h */,
+				BE020A401900AF620080311E /* AHHttpRequest.m */,
+				BE020A3B1900AF620080311E /* AHHttpError.h */,
+				BE020A3C1900AF620080311E /* AHHttpError.m */,
+				BE020A411900AF620080311E /* AHHttpServerTrust.h */,
+				BE020A421900AF620080311E /* AHHttpServerTrust.m */,
+				BE020A431900AF620080311E /* NSDictionary+NSData.h */,
+				BE020A441900AF620080311E /* NSDictionary+NSData.m */,
+				BE020A451900AF620080311E /* NSString+Base64.h */,
+				BE020A461900AF620080311E /* NSString+Base64.m */,
+				BE020A471900AF620080311E /* NSString+NSData.h */,
+				BE020A481900AF620080311E /* NSString+NSData.m */,
+				BE020A781900B01C0080311E /* NSString+StringSanitizer.h */,
+				BE020A791900B01C0080311E /* NSString+StringSanitizer.m */,
 				BE0209F31900AF040080311E /* Supporting Files */,
 			);
 			path = AHServers;
@@ -144,6 +254,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BE020A2D1900AF270080311E /* AHServersOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE020A331900AF270080311E /* AHServersOSXTests.m */,
+				BE020A2E1900AF270080311E /* Supporting Files */,
+			);
+			path = AHServersOSXTests;
+			sourceTree = "<group>";
+		};
+		BE020A2E1900AF270080311E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE020A2F1900AF270080311E /* AHServersOSXTests-Info.plist */,
+				BE020A301900AF270080311E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -151,6 +279,31 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE020A5F1900AF8C0080311E /* AHServers.h in Headers */,
+				BE020A511900AF620080311E /* AHHttpRequest.h in Headers */,
+				BE020A551900AF620080311E /* NSDictionary+NSData.h in Headers */,
+				BE020A571900AF620080311E /* NSString+Base64.h in Headers */,
+				BE020A7A1900B01C0080311E /* NSString+StringSanitizer.h in Headers */,
+				BE020A4F1900AF620080311E /* AHHttpManager.h in Headers */,
+				BE020A591900AF620080311E /* NSString+NSData.h in Headers */,
+				BE020A4D1900AF620080311E /* AHHttpError.h in Headers */,
+				BE020A531900AF620080311E /* AHHttpServerTrust.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE020A191900AF270080311E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE020A771900AFF00080311E /* AHServers.h in Headers */,
+				BE020A6F1900AFF00080311E /* AHHttpManager.h in Headers */,
+				BE020A701900AFF00080311E /* AHHttpRequest.h in Headers */,
+				BE020A721900AFF00080311E /* NSDictionary+NSData.h in Headers */,
+				BE020A741900AFF00080311E /* NSString+NSData.h in Headers */,
+				BE020A6E1900AFF00080311E /* AHHttpError.h in Headers */,
+				BE020A711900AFF00080311E /* AHHttpServerTrust.h in Headers */,
+				BE020A7B1900B01C0080311E /* NSString+StringSanitizer.h in Headers */,
+				BE020A731900AFF00080311E /* NSString+Base64.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +346,41 @@
 			productReference = BE020A001900AF040080311E /* AHServersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		BE020A1A1900AF270080311E /* AHServersOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE020A351900AF270080311E /* Build configuration list for PBXNativeTarget "AHServersOSX" */;
+			buildPhases = (
+				BE020A171900AF270080311E /* Sources */,
+				BE020A181900AF270080311E /* Frameworks */,
+				BE020A191900AF270080311E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHServersOSX;
+			productName = AHServersOSX;
+			productReference = BE020A1B1900AF270080311E /* libAHServersOSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BE020A261900AF270080311E /* AHServersOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE020A381900AF270080311E /* Build configuration list for PBXNativeTarget "AHServersOSXTests" */;
+			buildPhases = (
+				BE020A231900AF270080311E /* Sources */,
+				BE020A241900AF270080311E /* Frameworks */,
+				BE020A251900AF270080311E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE020A2B1900AF270080311E /* PBXTargetDependency */,
+			);
+			name = AHServersOSXTests;
+			productName = AHServersOSXTests;
+			productReference = BE020A271900AF270080311E /* AHServersOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -203,6 +391,9 @@
 				ORGANIZATIONNAME = "Eldon Ahrold";
 				TargetAttributes = {
 					BE0209FF1900AF040080311E = {
+						TestTargetID = BE0209E81900AF040080311E;
+					};
+					BE020A261900AF270080311E = {
 						TestTargetID = BE0209E81900AF040080311E;
 					};
 				};
@@ -220,7 +411,9 @@
 			projectRoot = "";
 			targets = (
 				BE0209E81900AF040080311E /* AHServers */,
+				BE020A1A1900AF270080311E /* AHServersOSX */,
 				BE0209FF1900AF040080311E /* AHServersTests */,
+				BE020A261900AF270080311E /* AHServersOSXTests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,6 +435,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE020A251900AF270080311E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE020A321900AF270080311E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -249,7 +450,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE0209FB1900AF040080311E /* AHServers.m in Sources */,
+				BE020A501900AF620080311E /* AHHttpManager.m in Sources */,
+				BE020A7C1900B01C0080311E /* NSString+StringSanitizer.m in Sources */,
+				BE020A521900AF620080311E /* AHHttpRequest.m in Sources */,
+				BE020A541900AF620080311E /* AHHttpServerTrust.m in Sources */,
+				BE020A4E1900AF620080311E /* AHHttpError.m in Sources */,
+				BE020A5A1900AF620080311E /* NSString+NSData.m in Sources */,
+				BE020A561900AF620080311E /* NSDictionary+NSData.m in Sources */,
+				BE020A581900AF620080311E /* NSString+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +469,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE020A171900AF270080311E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE020A641900AFDB0080311E /* AHHttpError.m in Sources */,
+				BE020A651900AFDB0080311E /* AHHttpManager.m in Sources */,
+				BE020A7D1900B01C0080311E /* NSString+StringSanitizer.m in Sources */,
+				BE020A681900AFDB0080311E /* NSDictionary+NSData.m in Sources */,
+				BE020A661900AFDB0080311E /* AHHttpRequest.m in Sources */,
+				BE020A671900AFDB0080311E /* AHHttpServerTrust.m in Sources */,
+				BE020A691900AFDB0080311E /* NSString+Base64.m in Sources */,
+				BE020A6A1900AFDB0080311E /* NSString+NSData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE020A231900AF270080311E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE020A341900AF270080311E /* AHServersOSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -268,6 +499,11 @@
 			isa = PBXTargetDependency;
 			target = BE0209E81900AF040080311E /* AHServers */;
 			targetProxy = BE020A041900AF040080311E /* PBXContainerItemProxy */;
+		};
+		BE020A2B1900AF270080311E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE020A1A1900AF270080311E /* AHServersOSX */;
+			targetProxy = BE020A2A1900AF270080311E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -284,6 +520,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				BE020A0B1900AF040080311E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE020A301900AF270080311E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE020A311900AF270080311E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -429,6 +673,68 @@
 			};
 			name = Release;
 		};
+		BE020A361900AF270080311E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AHServers/AHServers-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE020A371900AF270080311E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AHServers/AHServers-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE020A391900AF270080311E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AHServers.framework/Versions/A/AHServers";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AHServersOSX/AHServersOSX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AHServersOSXTests/AHServersOSXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BE020A3A1900AF270080311E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AHServers.framework/Versions/A/AHServers";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AHServersOSX/AHServersOSX-Prefix.pch";
+				INFOPLIST_FILE = "AHServersOSXTests/AHServersOSXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -448,6 +754,7 @@
 				BE020A131900AF040080311E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE020A141900AF040080311E /* Build configuration list for PBXNativeTarget "AHServersTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +763,25 @@
 				BE020A161900AF040080311E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE020A351900AF270080311E /* Build configuration list for PBXNativeTarget "AHServersOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE020A361900AF270080311E /* Debug */,
+				BE020A371900AF270080311E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE020A381900AF270080311E /* Build configuration list for PBXNativeTarget "AHServersOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE020A391900AF270080311E /* Debug */,
+				BE020A3A1900AF270080311E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface AHServers : NSObject
-
-@end
+#import "AHHttpManager.h"
+#import "AHHttpRequest.h"
+#import "NSDictionary+NSData.h"
