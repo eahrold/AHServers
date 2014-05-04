@@ -53,25 +53,28 @@
 };
 
 -(BOOL)promptForCertTrust:(NSURLAuthenticationChallenge *)challenge{
-    SecTrustRef trust = [[challenge protectionSpace ]serverTrust];
-    SecTrustResultType result;
-    SecTrustEvaluate(trust, &result);
-    BOOL rc = NO;
-    
-    if(result == kSecTrustResultProceed){
-        rc = YES;
+    SecTrustResultType secresult = kSecTrustResultInvalid;
+    if (SecTrustEvaluate(challenge.protectionSpace.serverTrust, &secresult) == errSecSuccess) {
+        switch (secresult) {
+            case kSecTrustResultUnspecified: // The OS trusts this certificate implicitly.
+            case kSecTrustResultProceed: // The user explicitly told the OS to trust it.
+            {
+                return YES;
+            }
+            default:
+            {
+                SFCertificateTrustPanel *panel = [SFCertificateTrustPanel sharedCertificateTrustPanel];
+                [panel setAlternateButtonTitle:@"Cancel"];
+                [panel setInformativeText:@"The server is offering a certificate that doesn't match.  You may be putting your info at risk, if you would like to trust this server anyway?"];
+                
+                BOOL button = [panel runModalForTrust:challenge.protectionSpace.serverTrust
+                                              message:@"Certificate Mismatch"];
+                panel = nil;
+                return button;
+            }
+        }
     }
-    
-    else if(result == kSecTrustResultRecoverableTrustFailure){
-        SFCertificateTrustPanel *panel = [SFCertificateTrustPanel sharedCertificateTrustPanel];
-        [panel setAlternateButtonTitle:@"Cancel"];
-        [panel setInformativeText:@"The server is offering a certificate that doesn't match.  You may be putting your info at risk, if you would like to trust this server anyway?"];
-        
-        NSInteger button = [panel runModalForTrust:trust message:@"Certificate Mismatch"];
-        panel = nil;
-        rc = button;
-    }
-    return rc;
+    return NO;
 }
 
 -(void)promptForCertTrust:(NSURLAuthenticationChallenge *)challenge success:(void (^)(BOOL))success{
