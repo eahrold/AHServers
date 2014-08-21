@@ -253,7 +253,6 @@
 
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
-    NSLog(@"Connection Finishing");
     AHURLConnection *serverConnection = (AHURLConnection *)connection;
     [_connections removeObject:connection];
     
